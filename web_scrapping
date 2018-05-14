@@ -1,0 +1,19 @@
+Web scraping is a technique used to extract data from websites through an automated process.
+Use Cases
+There are many reasons and use cases why you would want to scrape data. Let me list some of them:
+
+  scrape pages of a e-retailer to spot if some of the clothes you want to buy got discounted
+  compare prices of several clothes brands by scraping their pages
+  price of the flight tickets can vary during the day. One could crawl the travel website and get alarmed once the price was lowered
+  analyze the action websites to answer the question if starting bid should be low or high to attract more bidders or if the longer auction correlates with a higher end bid
+
+1. Available packages and tools
+- the way data is stored on each website is usually specific to that site
+- need to understand the website’s structure and
+- build your own solution or use a highly customizable one
+
+1.1 Inspect option
+  Use "Inspect" of browser and check html structure
+
+1.2 Scrapy
+1.3 BeautifulSoup
