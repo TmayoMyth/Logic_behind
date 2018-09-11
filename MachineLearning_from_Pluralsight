@@ -1,0 +1,42 @@
+What is MachineLearning?
+Machine Learning is an algorithm that is able
+- to learn from data
+- to find pattern within data to make intelligent decision
+
+
+Traditional ML System
+- model relies on expert's decision of input features
+
+Representation ML System
+- choose features by model itself
+
+Supervised learning
+- data have labels
+1. Train
+ - input correctly classified data
+ - model compare predicted label and actual label
+ - give feedback about comparison and
+ - use this to adjust model parameters
+ 
+2. Feature vector
+ - each data point is input as vectore
+ - these are called feature vectors (or x variables )
+
+3. Labels (Y variables)
+ - labels can be categorical(mostly binary data) or continuous values
+ 
+4. statistics
+ - dealing with continuous data needs basic understanding of statistics
+ 1) mean value (average value)
+  - representation of all data
+ 2) variance
+  - variance = sum of squred difference / (n - 1)
+ 3) Standard deviation 
+  - square root of variance
+ 
+ 5. data standardiztion
+  - Each data is standardize by using
+   ( data - mean(data) ) / ( standard deviation(data) )
+  - why?
+   - ML models work best on standardized values
+   - prevent some high variance data series from dominating
